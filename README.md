@@ -23,8 +23,11 @@ A RESTful API built with NestJS and MongoDB for product management with JWT auth
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd <project-directory>
+git clone https://github.com/hassan-kamel/fixed-be-task.git
+```
+
+```bash
+cd fixed-be-task
 ```
 
 2. Install dependencies:
@@ -35,13 +38,14 @@ npm install
 
 ## Compile and run the project
 
+### Development mode
+
 ```bash
-# development
-$ npm run start
-
-# watch mode
 $ npm run start:dev
+```
 
-# production mode
+### Production mode
+
+```bash
 $ npm run start:prod
 ```
