@@ -14,7 +14,7 @@ A RESTful API built with NestJS and MongoDB for product management with JWT auth
 
 ## Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js
 - MongoDB
 - npm
 
@@ -34,6 +34,23 @@ cd fixed-be-task
 
 ```bash
 npm install
+```
+
+3. Configure Environment Variables:
+
+Create a `.env` file in the root directory with the following variables:
+
+```bash
+# MongoDB Connection
+MONGODB_URI=mongodb://localhost:27017/your_database
+
+# JWT Configuration
+JWT_SECRET=your_jwt_secret_key
+JWT_EXPIRATION=24h
+
+# Server Configuration
+PORT=3000
+NODE_ENV=development
 ```
 
 ## Compile and run the project
